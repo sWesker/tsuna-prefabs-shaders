@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: testshader
+  m_Shader: {fileID: 4800000, guid: 36bd59d4cf76ee449916452f4cbe5cb0, type: 3}
+  m_ShaderKeywords: _ _EMISSION _METALLICGLOSSMAP _NORMALMAP
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 76767365615d599459ecab5afc9a0bdb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ClipTex:
+        m_Texture: {fileID: 2800000, guid: 6ad8460d342dd8a4b8e2ed59beb6ba32, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveGradient:
+        m_Texture: {fileID: 2800000, guid: efdd2aea7a08720408f9082f6b1b0134, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 2800000, guid: 68307c93a7e024a47b9e272377e889c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveRamp:
+        m_Texture: {fileID: 2800000, guid: 685115bd2ab09534bb958f25b1963fac, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: db0e0545abb52ea45b2375c99c78af9b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0ad9b3b9e20ca094793ed614245a009f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: b40f8bcce7451254c8e18eed6df03b76, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 2800000, guid: 5d4041ae8324eef40a9172fe1e2f67b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: e0e53789404a7ab47b5c1fe85ea87da4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BackfaceDimming: 0.014
+    - _Bias: 0
+    - _Brightness: 1.967094
+    - _BumpScale: 1
+    - _ChromaSpeed: 0.0259
+    - _Cull: 0
+    - _CullMode: 0
+    - _Cutoff: 0.9
+    - _Density: 1000
+    - _DetailNormalMapScale: 1
+    - _Di: 0.21
+    - _Dissolve: 0.21
+    - _DissolveClip: 0.5
+    - _DissolveInvert: 0
+    - _DissolvePos: 0.21
+    - _DissolvePosii: 0.21
+    - _DissolvePosiition: 0.21
+    - _DissolvePosiitionStrenght: 1.31
+    - _DissolvePosition: 0
+    - _DissolvePosition1: 0.21
+    - _DissolvePositionRange: 5.37
+    - _DissolveProgress: 0.498
+    - _DissolveRange: 1.4
+    - _DstBlend: 0
+    - _EmitPattern: 1
+    - _FLimit: 1
+    - _Float0: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Invert: 0
+    - _Metaliic: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalMapSlider: 1
+    - _OcclusionStrength: 1
+    - _Offset: 5.256104
+    - _Parallax: 0.02
+    - _Position: 0.21
+    - _PositionStrenght: 1.5
+    - _Power: 1.76
+    - _Progress: 0.573
+    - _Scale: 10
+    - _ScreenSpace: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed: 0.25
+    - _Speed1: 0.25
+    - _SpeedMov: 0.25
+    - _SrcBlend: 1
+    - _Start: 0.21
+    - _Start1: 0.46
+    - _Strength: 1
+    - _ToggleChroma: 0
+    - _ToggleDirection: 1
+    - _ToggleDirectional: 0
+    - _ToggleDirectionali: 0
+    - _ToggleMovement: 1
+    - _ToggleTime: 0
+    - _ToggleTime1: 0
+    - _Togglecut: 1
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
+    - _UVSec: 0
+    - _UseMainPat: 0
+    - _UseNormalMap: 1
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _DissolveColor: {r: 1, g: 1, b: 1, a: 0}
+    - _DissolveDirection: {r: 0, g: 0, b: 1, a: 0}
+    - _DissolveMovement: {r: 0, g: 0.2, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissonColor: {r: 1, g: 1, b: 1, a: 0}
+    - _PatternColor: {r: 1, g: 0, b: 0, a: 0}
+    - _TODissolve: {r: 5, g: 5, b: 0, a: 0}
+    - _Tiling: {r: 4, g: 4, b: 0, a: 0}
+    - _TilingandOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _Vector2: {r: 25, g: 25, b: 0, a: 0}

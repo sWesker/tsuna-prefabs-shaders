@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CamScreen
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: VIGNETTE_FILMIC _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BeachFoamMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 8400000, guid: 2bb3acb154b3ea5469275cf81f057a86, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 8400000, guid: 2bb3acb154b3ea5469275cf81f057a86, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OceanFoamMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionCubeMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BeachFoamSpeed: 0
+    - _BeachFoamStrenght: 0.75
+    - _BeachFoamTiling: 0.01
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DepthDistance: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnableBeachFoam: 1
+    - _EnableOceanFoam: 1
+    - _EnableReflection: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _IgnoreVertexColor: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalMapSpeed: 0
+    - _NormalMapStrength: 1
+    - _NormalMapTiling: 1
+    - _NormalMapTimescale: 1
+    - _OacenFoamStrenght: 0.28030998
+    - _OcclusionStrength: 1
+    - _OceanFoamDistance: 1
+    - _OceanFoamSpeed: 0.06184824
+    - _OceanFoamTiling: 2.032399
+    - _OpacityOcean: 0
+    - _Parallax: 0.02
+    - _ReflectionFrenelScale: 0.372
+    - _ReflectionFresnelPower: 2.66
+    - _ReflectionIntensity: 0
+    - _ReflectionWobble: 0.6218035
+    - _ShadowDepth: 0.6532351
+    - _ShadowFrenelScale: 0
+    - _ShadowFresnelPower: 0
+    - _ShadowIntensity: 0
+    - _Smoothness: 0.95
+    - _SmoothnessTextureChannel: 0
+    - _SmoothnessThreshold: 0
+    - _SmoothnessVariance: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _WaveHeight: 1
+    - _WaveSpeed: 0.5560129
+    - _WaveTileUV: 0
+    - _ZWrite: 1
+    - _foamMax: 0.7027565
+    m_Colors:
+    - _BeachFoamTint: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthTint: {r: 0.08627448, g: 0.29411766, b: 0.34901956, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OceanFoamTint: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterTint: {r: 0, g: 0.7294118, b: 1, a: 1}
+    - _WaveDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _WaveNoiseShape: {r: 0.5, g: 0, b: 0, a: 0}
+    - _WaveUp: {r: 0, g: 1, b: 0, a: 0}
