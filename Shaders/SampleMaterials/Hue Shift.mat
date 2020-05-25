@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pattern Control SS 1
-  m_Shader: {fileID: 4800000, guid: 9fdde179a49e5124daa3c8566786b2a8, type: 3}
-  m_ShaderKeywords: _ _EMISSION _METALLICGLOSSMAP _NORMALMAP _USENORMALMAP_ON
-  m_LightmapFlags: 2
+  m_Name: Hue Shift
+  m_Shader: {fileID: 4800000, guid: 82de3b8c9b0cc504d929a6b80d6bbc46, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -20,11 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 76767365615d599459ecab5afc9a0bdb, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ClipTex:
-        m_Texture: {fileID: 2800000, guid: 9334bda8588c8ce46a0286c2d1d4dd66, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -40,23 +36,23 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: db0e0545abb52ea45b2375c99c78af9b, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap1:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0ad9b3b9e20ca094793ed614245a009f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 03bb83f35fcc7c942b160033a07cebbd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: b40f8bcce7451254c8e18eed6df03b76, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap1:
-        m_Texture: {fileID: 2800000, guid: b40f8bcce7451254c8e18eed6df03b76, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 5d4041ae8324eef40a9172fe1e2f67b0, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -68,61 +64,34 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AlbedoHue: 0
     - _BackfaceDimming: 0
-    - _BackfaceDimming1: 0
-    - _Bias: 0
-    - _Brightness: 1.967094
     - _BumpScale: 1
-    - _Clip: 0.5
-    - _Clip1: 0
-    - _Cull1: 0
     - _CullMode: 0
+    - _CullMode2: 0
     - _Cutoff: 0.5
-    - _Density: 1000
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmitPattern: 0
-    - _FLimit: 0
+    - _EmissionHue: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0
-    - _Glossiness1: 0
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Invert: 0
+    - _Magnify: 0.3
     - _Metaliic: 0
-    - _Metaliic1: 0
     - _Metallic: 0
     - _Mode: 0
     - _NormalMapSlider: 1
-    - _NormalMapSlider1: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Power: 6.352941
-    - _Scale: 8
-    - _ScreenSpace: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 0
-    - _Speed1: 0
     - _SrcBlend: 1
-    - _Strength: 1
-    - _ThanksforusingmyShader1: 0
-    - _ToggleChroma: 0
-    - _ToggleSwitch0: 0
-    - _Togglecut: 1
+    - _ThanksforusingmyShader: 0
     - _UVSec: 0
-    - _UseMainPat: 1
-    - _UseNormalMap: 1
-    - _UseNormalMap1: 0
+    - _UseNormalMap: 0
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 0}
-    - _EmissonColor: {r: 1, g: 1, b: 1, a: 0}
-    - _PatternColor: {r: 1, g: 1, b: 1, a: 0}
-    - _PatternTiling: {r: 1, g: 1, b: 0, a: 0}
-    - _Tiling: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _TilingandOffset: {r: 1, g: 1, b: 0, a: 0}
-    - _TilingandOffset1: {r: 1, g: 1, b: 0, a: 0}
-    - _TilingandOffset3: {r: 1, g: 1, b: 1, a: 1}
-    - _TilingandOffsetPat: {r: 0.5, g: 0.5, b: 0, a: 0}

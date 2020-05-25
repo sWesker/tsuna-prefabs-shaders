@@ -122,6 +122,7 @@ Material:
     - _Speed1: 0.393
     - _SrcBlend: 1
     - _Strength: 0
+    - _ThanksforusingmyShader1: 0
     - _ToggleEmissionShift: 0
     - _ToggleMainShift: 1
     - _UVSec: 0
@@ -133,6 +134,6 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 0}
     - _Color1: {r: 1, g: 0, b: 0.00871706, a: 0}
-    - _Color2: {r: 0.08334457, g: 0, b: 1, a: 0}
+    - _Color2: {r: 0.08334456, g: 0, b: 1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 0}
     - _TilingandOffset: {r: 1, g: 1, b: 0, a: 0}

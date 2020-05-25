@@ -108,6 +108,7 @@ Material:
     - _SrcBlend: 1
     - _Strength: 0
     - _Strength1: 1000
+    - _ThanksforusingmyShader1: 0
     - _ToggleAlbedoChroma: 0
     - _ToggleChroma: 0
     - _ToggleChroma1: 0
