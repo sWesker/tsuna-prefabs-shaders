@@ -88,7 +88,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4608199043413234}
   - component: {fileID: 108247471347074918}
-  - component: {fileID: 114931180085516550}
   m_Layer: 0
   m_Name: light
   m_TagString: Untagged
@@ -148,33 +147,3 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114931180085516550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1756915253812940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57f24a4aaa0761b45ba25e7e5108e2c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UID: -1873788567
-  color: {r: 1, g: 0.88757396, b: 0, a: 1}
-  intensity: 2
-  shadowSpread: 0.05
-  cutoff: 2
-  realisticFalloff: 0
-  samples: 8
-  projMode: 0
-  cookie: {fileID: 0}
-  angle: 30
-  innerAngle: 0
-  cubemap: {fileID: 0}
-  iesFile: {fileID: 0}
-  bitmask: 1
-  bakeToIndirect: 0
-  shadowmask: 0
-  indirectIntensity: 1
-  falloffMinRadius: 1
